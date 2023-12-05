@@ -1,4 +1,4 @@
-[![MasterHead](https://developers.giphy.com/branch/master/static/api-c99e353f761d318322c853c03ebcf21b.gif)](https://github.com/jaga0001)
+[![MasterHead](https://user-images.githubusercontent.com/35267447/206916906-9bfb66d9-c419-44c2-908a-4885e610425f.gif)](https://github.com/jaga0001)
 
 <h1 align="center">Hi 👋, I'm Jagavantha</h1>
 <h3 align="center">A Passionate Artificial Intelligence And Data Science Student</h3>
