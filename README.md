@@ -6,7 +6,7 @@
 (img align="right" alt="Coding" width="400" src="https://www.bing.com/images/search?view=detailV2&ccid=QKk293OW&id=997A2417D74162019C6344BAE20813A6E09CB69A&thid=OIP.QKk293OWA7x_af9LnAyFrQHaFj&mediaurl=https%3A%2F%2Fparadox.ba%2Fparadox%2Fwp-content%2Fuploads%2F2019%2F09%2F4paradox-animation.gif&exph=600&expw=800&q=coding+gif&form=IRPRST&ck=F12B083E266ED09CA8909192A11DC4E0&selectedindex=1&itb=0&ajaxhist=0&ajaxserp=0&vt=2")
 
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=jaga0001&label=Profile%20views&color=0e75b6&style=flat" alt="jaga0001" /> </p>
+<p align="left"> <img src="https://paradox.ba/paradox/wp-content/uploads/2019/09/4paradox-animation.gif" alt="jaga0001" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=jaga0001" alt="jaga0001" /></a> </p>
 
