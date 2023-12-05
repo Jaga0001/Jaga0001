@@ -10,7 +10,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=jaga0001" alt="jaga0001" /></a> </p>
 
-<p align="left"> <a href="https://twitter.com/https://x.com/jagavanthapa?t=drsiud-dcoyyd7bh0rufra&s=09" target="blank"><img src="https://img.shields.io/twitter/follow/https://x.com/jagavanthapa?t=drsiud-dcoyyd7bh0rufra&s=09?logo=twitter&style=for-the-badge" alt="https://x.com/jagavanthapa?t=drsiud-dcoyyd7bh0rufra&s=09" /></a> </p>
+
 
 - 🔭 I’m currently working on [AI-Projects](github/Jaga00001/AI-Projects)
 
