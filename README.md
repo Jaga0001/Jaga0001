@@ -3,7 +3,7 @@
 <h1 align="center">Hi 👋, I'm Jagavantha</h1>
 <h3 align="center">A Passionate Artificial Intelligence And Data Science Student</h3>
 
-(img align="right" alt="Coding" width="400" src="https://img.freepik.com/premium-vector/programmer-engineering-development-coding-web-development-website-design-developer-vector_199064-129.jpg?w=900")
+(img align="right" alt="Coding" width="400" src="https://img.freepik.com/premium-vector/programmer-engineering-development-coding-web-development-website-design-developer-vector_199064-129.jpg?w=400")
 
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=jaga0001&label=Profile%20views&color=0e75b6&style=flat" alt="jaga0001" /> </p>
