@@ -17,7 +17,7 @@
           <li>🔭 I’m currently working on <a href="https://github.com/Jaga00001/AI-Projects">AI-Projects</a></li>
           <li>🌱 I’m currently learning <strong>Flutter</strong></li>
           <li>👨‍💻 All of my projects are available at <a href="http://jagaportfolio.me">jagaportfolio.me</a></li>
-          <li>💬 Ask me about <strong>FLutter, AI, Machine Learning</strong></li>
+          <li>💬 Ask me about <strong>Flutter, AI, Machine Learning</strong></li>
           <li>📫 How to reach me: <strong>Jagavanthaarunkumar7@gmail.com</strong></li>
           <li>⚡ Fun fact: <strong>Artificial intelligence (AI) would be more transformative to humanity as a species than electricity and fire.</strong></li>
         </ul>
@@ -34,7 +34,8 @@
 ### GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jaga0001&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jaga0001&theme=dracula&hide_border=false" height="150" alt="GitHub Streak Stats" />
+  &nbsp;&nbsp;&nbsp;
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=jaga0001&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="Top Languages" />
 </div>
 
@@ -72,7 +73,7 @@
         <br><strong>C</strong>
       </td>
       <td align="center" width="130">
-        <img src="https://github.com/Jaga0001/Jaga0001/assets/144882407/a95adab2-32a5-4940-954d-8f35722ac85a" height="50" alt="Bloc" />
+        <img src="https://bloclibrary.dev/_astro/bloc.DJLDGT9c_1KXLNj.svg" height="70" alt="Bloc" />
         <br><strong>Bloc</strong>
       </td>
       <td align="center" width="130">
@@ -87,14 +88,33 @@
 
 ### Connect with Me
 
-<p align="center">
-  <a href="https://youtube.com"><img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="YouTube" /></a>
-  <a href="https://instagram.com"><img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="Instagram" /></a>
-  <a href="https://twitch.tv"><img src="https://img.shields.io/static/v1?message=Twitch&logo=twitch&label=&color=9146FF&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="Twitch" /></a>
-  <a href="https://discord.com"><img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="Discord" /></a>
-  <a href="mailto:Jagavanthaarunkumar7@gmail.com"><img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="Gmail" /></a>
-  <a href="https://linkedin.com"><img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="LinkedIn" /></a>
-</p>
+<div align="center">
+  <table style="border: none;">
+    <tr>
+      <td align="center">
+        <a href="https://youtube.com"><img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="YouTube" /></a>
+      </td>
+      <td align="center">
+        <a href="https://instagram.com"><img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="Instagram" /></a>
+      </td>
+      <td align="center">
+        <a href="https://twitch.tv"><img src="https://img.shields.io/static/v1?message=Twitch&logo=twitch&label=&color=9146FF&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="Twitch" /></a>
+      </td>
+      <td align="center">
+        <a href="https://discord.com"><img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="Discord" /></a>
+      </td>
+      <td align="center">
+        <a href="mailto:Jagavanthaarunkumar7@gmail.com"><img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="Gmail" /></a>
+      </td>
+      <td align="center">
+        <a href="https://linkedin.com"><img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="LinkedIn" /></a>
+      </td>
+    </tr>
+  </table>
+  
+  <a href="https://www.buymeacoffee.com/yourusername"><img src="https://gifdb.com/images/high/capoo-cat-typing-on-desk-gh8k0cjf5hq4vy2p.gif" width="400" alt="Buy Me a Coffee" /></a>
+</div>
+
 
 ---
 
