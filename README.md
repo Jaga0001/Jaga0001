@@ -72,7 +72,7 @@
         <br><strong>C</strong>
       </td>
       <td align="center" width="130">
-        <img src="https://bloclibrary.dev/_astro/bloc.DJLDGT9c_1KXLNj.svg" height="70" alt="Bloc" />
+        <img src="https://github.com/Jaga0001/Jaga0001/assets/144882407/a95adab2-32a5-4940-954d-8f35722ac85a" height="50" alt="Bloc" />
         <br><strong>Bloc</strong>
       </td>
       <td align="center" width="130">
