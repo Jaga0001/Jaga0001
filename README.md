@@ -2,9 +2,9 @@
 
 <h1 align="center">Hi 👋, I'm Jagavantha</h1>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=jaga0001&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
-</p>
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=jaga0001&label=Profile%20views&color=blueviolet&style=flat-square" alt="Profile Views" />
+</div>
 
 ---
 
@@ -23,7 +23,7 @@
         </ul>
       </td>
       <td>
-        <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1292677/screenshots/6139167/avento.gif">
+        <img align="right" alt="Coding" width="300" src="https://cdn.dribbble.com/users/1292677/screenshots/6139167/avento.gif">
       </td>
     </tr>
   </table>
@@ -89,7 +89,7 @@
 ### Connect with Me
 
 <div align="center">
-  <table style="border: none;">
+  <table style="border: none">
     <tr>
       <td align="center">
         <a href="https://youtube.com"><img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="YouTube" /></a>
@@ -112,9 +112,8 @@
     </tr>
   </table>
   
-  <a href="https://www.buymeacoffee.com/yourusername"><img src="https://gifdb.com/images/high/capoo-cat-typing-on-desk-gh8k0cjf5hq4vy2p.gif" width="400" alt="Buy Me a Coffee" /></a>
+  <a href="https://www.buymeacoffee.com/yourusername"><img src="https://gifdb.com/images/high/capoo-cat-typing-on-desk-gh8k0cjf5hq4vy2p.gif" width="300" alt="Buy Me a Coffee" /></a>
 </div>
-
 
 ---
 
