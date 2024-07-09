@@ -1,10 +1,9 @@
 ![Header Image](https://github.com/Jaga0001/Jaga0001/assets/144882407/5e910ea0-9562-4d48-bf55-717425c85c65)
 
-<h1 align="center">Hi 👋, I'm Jagavantha</h1>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&random=false&width=435&lines=Hello+There!%F0%9F%91%8B;I+am+Jagavantha+PA%2C+Student+At+MSEC)](https://git.io/typing-svg)
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=jaga0001&label=Profile%20views&color=blueviolet&style=flat-square" alt="Profile Views" />
-</div>
+<img src="https://komarev.com/ghpvc/?username=jaga0001&label=Profile%20views&color=blueviolet&style=flat-square" alt="Profile Views" />
+
 
 ---
 
