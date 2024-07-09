@@ -26,17 +26,21 @@
         <img align="right" alt="Coding" width="300" src="https://cdn.dribbble.com/users/1292677/screenshots/6139167/avento.gif">
       </td>
     </tr>
-  </table>
+  </table> 
 </div>
 
 ---
 
 ### GitHub Stats
-
+<br>
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jaga0001&theme=dracula&hide_border=false" height="150" alt="GitHub Streak Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jaga0001&theme=dracula&hide_border=false" height="200" alt="GitHub Streak Stats" />
   &nbsp;&nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=jaga0001&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=jaga0001&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="200" alt="Top Languages" />
+</div>
+<br>
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Jaga0001&theme=rogue&custom_title=Jagavantha%20Contribution%20Graph" width="800" height="300" alt="Jaga0001 Github Activity Graph" />
 </div>
 
 ---
@@ -111,8 +115,6 @@
       </td>
     </tr>
   </table>
-  
-  <a href="https://www.buymeacoffee.com/yourusername"><img src="https://gifdb.com/images/high/capoo-cat-typing-on-desk-gh8k0cjf5hq4vy2p.gif" width="300" alt="Buy Me a Coffee" /></a>
 </div>
 
 ---
