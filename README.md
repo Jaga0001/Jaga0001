@@ -33,9 +33,9 @@
 ### GitHub Stats
 <br>
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jaga0001&theme=dracula&hide_border=false" height="200" alt="GitHub Streak Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jaga0001&theme=dracula&hide_border=false" height="150" alt="GitHub Streak Stats" />
   &nbsp;&nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=jaga0001&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="200" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=jaga0001&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="Top Languages" />
 </div>
 <br>
 <div align="center">
