@@ -16,7 +16,7 @@
           <li>🔭 I’m currently working on <a href="https://github.com/Jaga00001/AI-Projects">AI-Projects</a></li>
           <li>🌱 I’m currently learning <strong>Flutter</strong></li>
           <li>👨‍💻 All of my projects are available at <a href="http://jagaportfolio.me">jagaportfolio.me</a></li>
-          <li>💬 Ask me about <strong>Flutter, AI, Machine Learning</strong></li>
+          <li>💬 Ask me about <strong>Flutter, AI, Machine Learning, Firebase, Bloc</strong></li>
           <li>📫 How to reach me: <strong>Jagavanthaarunkumar7@gmail.com</strong></li>
           <li>⚡ Fun fact: <strong>Artificial intelligence would be more transformative to humanity as a species than electricity and fire.</strong></li>
         </ul>
