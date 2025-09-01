@@ -50,7 +50,6 @@ const jagavantha = {
     learning: ["Advanced Flutter Animations", "ML Integration"],
     languages: ["Dart", "Python", "Docker", "CrewAI"],
     askMeAbout: ["Flutter", "Firebase", "Mobile Development"],
-    funFact: "I can debug code faster than I can explain what it does! 🐛"
 };
 ```
 
