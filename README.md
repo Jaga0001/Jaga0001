@@ -4,7 +4,7 @@
 <!-- Animated Welcome Message -->
 <div align="center">
   
-  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=6AD3F7&center=true&vCenter=true&random=false&width=800&lines=Welcome+to+my+Digital+Workspace!+%F0%9F%91%8B;Building+Mobile+Apps+with+Flutter+%F0%9F%93%B1;Crafting+Cloud+Solutions+with+Firebase+%E2%98%81%EF%B8%8F;Exploring+AI%2FML+with+HuggingFace+%F0%9F%A4%96;Let's+Create+Something+Amazing+Together!+%F0%9F%9A%80)](https://git.io/typing-svg)
+  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=6AD3F7&center=true&vCenter=true&random=false&width=1000&lines=Welcome+to+my+Digital+Workspace!+%F0%9F%91%8B;Building+Mobile+Apps+with+Flutter+%F0%9F%93%B1;Crafting+Cloud+Solutions+with+Firebase+%E2%98%81%EF%B8%8F;Exploring+AI%2FML+with+HuggingFace+%F0%9F%A4%96;Let's+Create+Something+Amazing+Together!+%F0%9F%9A%80)](https://git.io/typing-svg)
   
 </div>
 
@@ -47,9 +47,9 @@ Hey there! I'm **Jagavantha**, a passionate developer from India 🇮🇳 on a m
 const jagavantha = {
     location: "Chennai, Tamil Nadu, India",
     currentFocus: "Building Full-Stack Mobile Applications",
-    learning: ["Advanced Flutter Animations", "Cloud Architecture", "ML Integration"],
+    learning: ["Advanced Flutter Animations", "ML Integration"],
     languages: ["Dart", "Python", "Docker", "CrewAI"],
-    askMeAbout: ["Flutter", "Firebase", "Mobile Development", "API Integration"],
+    askMeAbout: ["Flutter", "Firebase", "Mobile Development"],
     funFact: "I can debug code faster than I can explain what it does! 🐛"
 };
 ```
