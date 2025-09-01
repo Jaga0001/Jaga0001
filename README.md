@@ -205,14 +205,14 @@ const jagavantha = {
 
 ## 📊 GitHub Analytics
 
-<div align="center">
-  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=Jaga0001&show_icons=true&count_private=true&hide_border=true&title_color=00b3ff&icon_color=00b4ff&text_color=c9d1d9&bg_color=0d1117" alt="Jagavantha github stats" /> 
-  <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jaga0001&layout=compact&hide_border=true&title_color=00b3ff&text_color=00b4ff&bg_color=0d1117" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Jaga0001&theme=black-ice&hide_border=true&stroke=0000&background=0d1117&ring=00b3ff&fire=00b3ff&currStreakLabel=00b3ff" alt="GitHub Streak" />
-</div>
+<p align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=jaga0001&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=jaga0001&theme=react&hide_border=true&bg_color=0D1117&stroke=0D1117&fire=F85D7F&ring=F85D7F&currStreakLabel=F85D7F" />
+</p>
+<p align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaga0001&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866" />
+  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=jaga0001&theme=react-dark&hide_border=true&bg_color=0D1117&color=F85D7F&line=F85D7F&point=F8D866" />
+</p>
 
 ## 📈 Contribution Activity
 
