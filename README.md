@@ -41,7 +41,7 @@
 
 <img align="right" alt="Coding" width="350" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 
-Hey there! I'm **Jagavantha**, a passionate developer from India 🇮🇳 on a mission to build innovative solutions that make life easier and more enjoyable!
+Hey Folks
 
 ```javascript
 const jagavantha = {
