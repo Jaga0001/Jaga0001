@@ -128,10 +128,10 @@ const jagavantha = {
 <table>
   <tr>
     <td width="50%">
-      <h3 align="center">📝 TODO App</h3>
+      <h3 align="center">📝 Todo App</h3>
       <div align="center">
         <a href="https://github.com/Jaga0001/TODO_App">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=Jaga0001&repo=TODO_App&theme=tokyonight&hide_border=true" />
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=Jaga0001&repo=todo_app&theme=tokyonight&hide_border=true" />
         </a>
         <br><br>
         <p>
@@ -146,7 +146,7 @@ const jagavantha = {
     <td width="50%">
       <h3 align="center">📊 Habit Tracker</h3>
       <div align="center">
-        <a href="https://github.com/Jaga0001/Habit_Tracker_App">
+        <a href="https://github.com/Jaga0001/habit_tracker_app">
           <img src="https://github-readme-stats.vercel.app/api/pin/?username=Jaga0001&repo=Habit_Tracker_App&theme=tokyonight&hide_border=true" />
         </a>
         <br><br>
@@ -162,9 +162,9 @@ const jagavantha = {
   </tr>
   <tr>
     <td width="50%">
-      <h3 align="center">🎮 NEXQUIZ</h3>
+      <h3 align="center">🎮 NexQuiz</h3>
       <div align="center">
-        <a href="https://github.com/Jaga0001/NEXQUIZ">
+        <a href="https://github.com/Jaga0001/nexquiz">
           <img src="https://github-readme-stats.vercel.app/api/pin/?username=Jaga0001&repo=NEXQUIZ&theme=tokyonight&hide_border=true" />
         </a>
         <br><br>
