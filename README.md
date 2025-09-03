@@ -213,11 +213,7 @@ const jagavantha = {
   <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=jaga0001&theme=react-dark&hide_border=true&bg_color=0D1117&color=F85D7F&line=F85D7F&point=F8D866" />
 </p>
 
-## 📈 Contribution Activity
 
-<div align="center">
-  <img alt="Jagavantha's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=Jaga0001&bg_color=0d1117&color=00b3ff&line=00b4ff&point=07e8f7&area=true&hide_border=true" />
-</div>
 
 ## 🏆 GitHub Achievements
 
