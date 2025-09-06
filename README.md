@@ -210,7 +210,7 @@ const jagavantha = {
 </p>
 <p align="center">
   <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaga0001&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866" />
-  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=jaga0001&theme=react-dark&hide_border=true&bg_color=0D1117&color=F85D7F&line=F85D7F&point=F8D866" />
+  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=jaga0001&theme=react-dark&hide_border=true&bg_color=0D1117&color=F85D7F&line=F85D7F&point=F8D866&custom_title=Jaga0001%20Contribution"/>
 </p>
 
 
@@ -266,7 +266,7 @@ const jagavantha = {
     <img src="https://img.shields.io/badge/Send%20Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
   <a href="https://github.com/Jaga0001">
-    <img src="https://img.shields.io/badge/Follow%20on%20GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/badge/Follow%20on%20GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
   
 </div>
@@ -284,7 +284,7 @@ const jagavantha = {
 </div>
 
 <!-- Footer Wave -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=100&section=footer&animation=twinkling" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=100&section=footer&animation=twinkling"/>
 
 <!-- Snake Animation -->
 <div align="center">
