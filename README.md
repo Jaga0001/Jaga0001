@@ -3,9 +3,7 @@
 
 <!-- Animated Welcome Message -->
 <div align="center">
-  
-  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=6AD3F7&center=true&vCenter=true&random=false&width=1000&lines=Welcome+to+my+Digital+Workspace!+%F0%9F%91%8B;Building+Mobile+Apps+with+Flutter+%F0%9F%93%B1;Crafting+Cloud+Solutions+with+Firebase+%E2%98%81%EF%B8%8F;Exploring+AI%2FML+with+HuggingFace+%F0%9F%A4%96;Let's+Create+Something+Amazing+Together!+%F0%9F%9A%80)](https://git.io/typing-svg)
-  
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=50&pause=1000&color=2E97F7&center=true&vCenter=true&width=1000&lines=Welcome+To+My+Digital+Workspace;Open+Source+Contributions;Problem+Solver+%26+Tech+Innovator" alt="Typing SVG" />
 </div>
 
 <!-- Social Links Bar -->
