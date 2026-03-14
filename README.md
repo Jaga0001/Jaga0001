@@ -43,37 +43,16 @@ Currently, I'm deeply exploring **distributed systems, cloud-native architecture
 
 ---
 
-## 🚀 Featured Projects
+### 🚀 Featured Engineering Projects
 
-### [Krishi Sakhi](https://github.com/Jaga0001/krishi_sakhi)
-**AI-Powered Agricultural Advisor**
+| Project | Description | Tech Stack |
+| :--- | :--- | :--- |
+| **[RepoPilot](https://github.com/Jaga0001/repo_pilot)** | **CI/CD AI Fix Agent.** An intelligent agent integrating with GitHub Webhooks to detect pipeline failures, semantic search past fixes, generate code solutions via Gemini, and automate PR creation. | `Python`, `FastAPI`, `CrewAI`, `Elasticsearch`, `Gemini API` |
+| **[RAG Query System](https://github.com/Jaga0001/rag-query-system)** | **Intelligent Document Retrieval.** A production-ready RAG pipeline enabling high-accuracy semantic search across large document sets, featuring custom chunking strategies and robust REST APIs. | `Python`, `LangChain`, `FastAPI`, `Vector DBs`, `LLM APIs` |
+| **[Krishi Sakhi](https://github.com/Jaga0001/krishi_sakhi)** | **AI Agricultural Advisor.** Architected a multi-agent AI system providing contextual crop recommendations and pest detection in regional languages. Focused heavily on agent orchestration patterns. | `Python`, `FastAPI`, `CrewAI`, `Multi-Agent Systems` |
+| **[Globe Trotter](https://github.com/Jaga0001/globe_trotter)** | **Smart Travel Platform.** A comprehensive mobile app with personalized itinerary generation, smart search capabilities, and destination bookmarking. | `Flutter`, `Dart`, `Firebase`, `Provider/Bloc` |
+| **[BluVoyage](https://github.com/Jaga0001/bluvoyage)** | **Full-Stack Booking App.** Built secure backend services for authentication, booking logic, and third-party integrations alongside a dynamic mobile frontend. | `FastAPI`, `PostgreSQL`, `Flutter`, `REST APIs` |
 
-- **Tech Stack:** Python, FastAPI, CrewAI, LLM APIs, Multi-Agent Systems
-- **Description:** Architected and developed a multi-agent AI system that provides farmers with crop recommendations, pest detection, and contextual agricultural insights in regional languages. Focused on agent orchestration patterns and scalable API design for AI inference.
-
-### [RAG Query System](https://github.com/Jaga0001/rag-query-system)
-**Intelligent Document Retrieval and Question Answering**
-
-- **Tech Stack:** Python, LangChain, FastAPI, Vector Databases (Pinecone/ChromaDB), OpenAI APIs
-- **Description:** Built a production-ready Retrieval-Augmented Generation (RAG) pipeline enabling semantic search across large document collections. Implemented robust document ingestion, chunking strategies, and context-aware response generation with RESTful APIs for seamless integration.
-
-### [BluVoyage](https://github.com/Jaga0001/bluvoyage)
-**Full-Stack Travel Planning Platform**
-
-- **Tech Stack:** Flutter, FastAPI, PostgreSQL, Firebase, REST APIs
-- **Description:** Developed a comprehensive travel platform that allows users to discover, plan, and manage travel experiences. Designed and implemented backend services for authentication, booking logic, and third-party API integrations, alongside a mobile frontend built with Flutter.
-
-### [NexQuiz](https://github.com/Jaga0001/NEXQUIZ)
-**Scalable Quiz Platform**
-
-- **Tech Stack:** Flutter, FastAPI, PostgreSQL
-- **Description:** Engineered backend services for dynamic quiz generation, user management, scoring algorithms, and leaderboard systems. Focused on efficient database query patterns and scalable backend architecture to handle diverse content and user interactions.
-
-### [Habit Tracker App](https://github.com/Jaga0001/habit_tracker_app)
-**Data-Driven Habit Tracking Application**
-
-- **Tech Stack:** Flutter, Firebase, Cloud Functions, Firestore
-- **Description:** Developed a habit tracking application featuring real-time updates and analytics. Implemented serverless backend functions for complex analytics computation, streak calculations, and push notifications, ensuring efficient data synchronization.
 
 ---
 
