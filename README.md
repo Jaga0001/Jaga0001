@@ -100,14 +100,6 @@ I am driven by a commitment to building software that is not just functional, bu
 
 ---
 
-## 📈 GitHub Stats
-
-<!-- GitHub Stats will be placed here. You can use tools like `anuraghazra/github-readme-stats` to generate these. Example:
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Jaga0001&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Jaga0001&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
--->
-
----
 
 ## 📬 Connect With Me
 
