@@ -3,219 +3,311 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Resume — Jagavantha PA</title>
+  <title>Resume &mdash; Jagavantha PA</title>
   <meta name="description" content="Resume of Jagavantha PA — AI Engineer &amp; AI Systems Builder. B.Tech AI &amp; Data Science at MSEC Chennai.">
-  <meta name="theme-color" content="#050c08">
-  <link rel="canonical" href="https://jaga0001.github.io/resume.html">
+  <meta name="theme-color" content="#040906">
+  <link rel="canonical" href="https://jaga0001.github.io/Jaga0001/resume.html">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Geist:wght@300..700&family=JetBrains+Mono:wght@400;500&display=swap">
-  <link rel="stylesheet" href="assets/css/tokens.css">
-  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Geist:wght@300..700&family=JetBrains+Mono:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
+
   <style>
-    @layer sections {
-      body { padding-block: var(--space-xl) var(--space-3xl); }
-      body::after { display: none; }
-      .bar {
-        display: flex; flex-wrap: wrap; gap: var(--space-s); justify-content: space-between; align-items: center;
-        margin-bottom: var(--space-xl);
+    body {
+      padding-block: 2rem 4rem;
+    }
+    .resume-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+    .resume-sheet {
+      background: var(--bg-card);
+      border: 1px solid var(--border-strong);
+      border-radius: var(--radius-lg);
+      padding: clamp(1.5rem, 4vw, 3.5rem);
+      box-shadow: 0 20px 60px rgba(0,0,0,0.6), var(--glow);
+    }
+    .r-head {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .r-title {
+      font-size: clamp(2rem, 3.5vw, 2.8rem);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.35rem;
+    }
+    .r-subtitle {
+      font-family: var(--font-mono);
+      color: var(--mint);
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+    }
+    .r-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.25rem;
+      font-family: var(--font-mono);
+      font-size: 0.84rem;
+      color: var(--text-muted);
+    }
+    .r-links a {
+      color: var(--mint-light);
+      text-decoration: underline;
+    }
+    .r-sec {
+      margin-bottom: 2rem;
+    }
+    .r-sec-title {
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+      color: var(--emerald);
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.4rem;
+      margin-bottom: 1.25rem;
+    }
+    .r-entry {
+      margin-bottom: 1.4rem;
+    }
+    .r-entry-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 0.25rem;
+    }
+    .r-entry-head h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-main);
+    }
+    .r-entry-meta {
+      font-family: var(--font-mono);
+      font-size: 0.8rem;
+      color: var(--emerald);
+    }
+    .r-entry-sub {
+      font-family: var(--font-mono);
+      font-size: 0.86rem;
+      color: var(--mint);
+      margin-bottom: 0.5rem;
+    }
+    .r-entry ul {
+      list-style: disc;
+      padding-left: 1.25rem;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      line-height: 1.6;
+    }
+    .r-entry ul li {
+      margin-bottom: 0.35rem;
+    }
+    .r-skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1rem;
+    }
+    .r-skill-box strong {
+      font-family: var(--font-mono);
+      font-size: 0.82rem;
+      color: var(--mint);
+      display: block;
+      margin-bottom: 0.25rem;
+    }
+    .r-skill-box p {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+    }
+
+    @media print {
+      body {
+        background: #ffffff !important;
+        color: #111111 !important;
+        padding: 0 !important;
       }
-      .bar__actions { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-      .sheet {
-        padding: clamp(1.25rem, 4vw, 3.5rem);
-        border: 1px solid var(--line);
-        border-radius: var(--radius-l);
-        background: linear-gradient(180deg, var(--ink-900) 0%, var(--ink-950) 100%);
-        box-shadow: 0 30px 80px rgba(0,0,0,0.5);
+      .resume-nav {
+        display: none !important;
       }
-      .r-head { margin-bottom: var(--space-2xl); padding-bottom: var(--space-l); border-bottom: 1px solid var(--line); }
-      .r-head h1 { font-size: clamp(2rem, 4vw, 3rem); font-family: var(--font-display); line-height: 1.1; margin-bottom: 0.4rem; }
-      .r-head .role { font-family: var(--font-mono); color: var(--rose-300); font-size: 0.95rem; margin-bottom: var(--space-s); }
-      .r-links { display: flex; flex-wrap: wrap; gap: var(--space-m); list-style: none; font-family: var(--font-mono); font-size: 0.82rem; }
-      .r-sec { margin-bottom: var(--space-xl); }
-      .r-sec h2 {
-        font-family: var(--font-mono); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.12em;
-        color: var(--rose-300); margin-bottom: var(--space-m);
+      .resume-sheet {
+        border: none !important;
+        box-shadow: none !important;
+        padding: 0 !important;
+        background: #ffffff !important;
       }
-      .r-item { margin-bottom: var(--space-m); }
-      .r-item__top { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; }
-      .r-item__top h3 { font-size: 1.05rem; font-weight: 600; }
-      .r-item__top .meta { font-family: var(--font-mono); font-size: 0.8rem; color: var(--muted); }
-      .r-item .sub { font-family: var(--font-mono); font-size: 0.85rem; color: var(--rose-200); margin-top: 0.15rem; }
-      .r-item ul { margin-top: 0.4rem; padding-left: 1.2rem; color: var(--muted); font-size: 0.92rem; }
-      .r-skills { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
-      .r-skills div strong { display: block; font-family: var(--font-mono); font-size: 0.8rem; color: var(--rose-300); margin-bottom: 0.2rem; }
-      .r-skills div p { font-size: 0.88rem; color: var(--muted); margin: 0; }
-      @media print {
-        body { padding: 0; background: #fff !important; color: #111 !important; }
-        .bar, .skip-link, .sound-toggle { display: none !important; }
-        .sheet { padding: 0; border: none; background: #fff !important; color: #111 !important; box-shadow: none; }
-        .r-head h1 { color: #000 !important; }
-        .r-head .role, .r-sec h2, .r-skills div strong { color: #047857 !important; }
-        .r-item__top .meta, .r-item ul, .r-skills div p { color: #333 !important; }
-        a { color: #000 !important; text-decoration: none !important; }
+      .r-title, h1, h2, h3, h4 {
+        color: #000000 !important;
+      }
+      .r-subtitle, .r-sec-title, .r-entry-meta, .r-skill-box strong {
+        color: #047857 !important;
+      }
+      .r-links, .r-links a, .r-entry ul, .r-skill-box p, .text-muted {
+        color: #333333 !important;
       }
     }
   </style>
 </head>
 <body>
-  <div class="container" style="max-width: 900px;">
-    <div class="bar">
-      <a class="link-u mono" href="index.html">&larr; Back to Portfolio</a>
-      <div class="bar__actions">
-        <button class="btn btn--primary btn--small" type="button" onclick="window.print()">Save as PDF / Print</button>
-      </div>
+  <div class="container" style="max-width: 920px;">
+    <div class="resume-nav">
+      <a class="btn btn--secondary btn--small" href="index.html">&larr; Back to Portfolio</a>
+      <button class="btn btn--primary btn--small" type="button" onclick="window.print()">
+        <span>Save as PDF / Print</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+      </button>
     </div>
 
-    <article class="sheet">
+    <article class="resume-sheet">
       <header class="r-head">
-        <h1>Jagavantha <em>PA</em></h1>
-        <p class="role">AI Engineer &middot; AI Systems Builder &middot; SDE</p>
-        <ul class="r-links">
-          <li><a class="link-u" href="mailto:jagavanthaarunkumar@gmail.com">jagavanthaarunkumar@gmail.com</a></li>
-          <li><a class="link-u" href="https://github.com/jaga0001" target="_blank" rel="noopener">github.com/jaga0001</a></li>
-          <li><a class="link-u" href="https://www.linkedin.com/in/jaga0001/" target="_blank" rel="noopener">linkedin.com/in/jaga0001</a></li>
-          <li>Chennai, Tamil Nadu, India</li>
-        </ul>
+        <h1 class="r-title">Jagavantha PA</h1>
+        <p class="r-subtitle">AI Engineer &middot; AI Systems Builder &middot; SDE</p>
+        <div class="r-links">
+          <span>Email: <a href="mailto:jagavanthaarunkumar@gmail.com">jagavanthaarunkumar@gmail.com</a></span>
+          <span>GitHub: <a href="https://github.com/jaga0001" target="_blank" rel="noopener">github.com/jaga0001</a></span>
+          <span>LinkedIn: <a href="https://www.linkedin.com/in/jaga0001/" target="_blank" rel="noopener">linkedin.com/in/jaga0001</a></span>
+          <span>Location: Chennai, Tamil Nadu, India</span>
+        </div>
       </header>
 
       <section class="r-sec">
-        <h2>Executive Summary</h2>
-        <p style="color: var(--muted); font-size: 0.92rem; line-height: 1.6;">
-          Final-year B.Tech in Artificial Intelligence &amp; Data Science skilled in building autonomous AI systems,
-          LLM agents, high-precision RAG pipelines, and scalable backend solutions using FastAPI and Python.
-          Proven ability to engineer production-ready software in predictive analytics, anomaly detection, and CI/CD automation through internships and competitive hackathons.
+        <h2 class="r-sec-title">Summary</h2>
+        <p style="color:var(--text-muted); font-size:0.92rem; line-height:1.65;">
+          Final-year B.Tech in Artificial Intelligence &amp; Data Science at Meenakshi Sundararajan Engineering College (MSEC), Chennai.
+          Expertise in architecting autonomous multi-agent systems, dense RAG document retrieval engines, time-series anomaly detection,
+          and production-grade FastAPI backends. Proven track record in national competitive hackathons (AI Innovate 3rd Prize, Beach Hacks Top 12, HackRx 6.0 Top 8)
+          and real-world software engineering internships.
         </p>
       </section>
 
       <section class="r-sec">
-        <h2>Education</h2>
-        <div class="r-item">
-          <div class="r-item__top">
-            <h3>Meenakshi Sundararajan Engineering College (MSEC), Chennai</h3>
-            <span class="meta">Nov 2022 &ndash; Sep 2026</span>
+        <h2 class="r-sec-title">Education</h2>
+        <div class="r-entry">
+          <div class="r-entry-head">
+            <h3>Meenakshi Sundararajan Engineering College (MSEC)</h3>
+            <span class="r-entry-meta">Nov 2022 &ndash; Sep 2026 &middot; Chennai, India</span>
           </div>
-          <p class="sub">Bachelor of Technology &mdash; Artificial Intelligence and Data Science</p>
-          <p style="color: var(--muted); font-size: 0.85rem; margin-top: 0.25rem;">
-            <strong>Coursework:</strong> Data Structures &amp; Algorithms, Machine Learning, System Design, Agentic AI, Generative AI, SQL, Applied Statistics, Automation.
+          <p class="r-entry-sub">Bachelor of Technology &mdash; Artificial Intelligence and Data Science</p>
+          <p style="color:var(--text-muted); font-size:0.86rem;">
+            Coursework: Data Structures &amp; Algorithms, Machine Learning, System Design, Agentic AI, Generative AI, SQL, Applied Statistics, Software Automation.
           </p>
         </div>
       </section>
 
       <section class="r-sec">
-        <h2>Experience</h2>
-        <div class="r-item">
-          <div class="r-item__top">
-            <h3>EnnVee Solutions &mdash; Software Engineer Intern</h3>
-            <span class="meta">Jan 2026 &ndash; Mar 2026 | Chennai, India</span>
+        <h2 class="r-sec-title">Internships &amp; Experience</h2>
+        <div class="r-entry">
+          <div class="r-entry-head">
+            <h3>Software Engineer Intern</h3>
+            <span class="r-entry-meta">Jan 2026 &ndash; Mar 2026 &middot; Chennai, India</span>
           </div>
+          <p class="r-entry-sub">EnnVee Solutions</p>
           <ul>
-            <li>Acquired foundational knowledge in AI/ML model development, feature engineering, and data preprocessing workflows.</li>
-            <li>Developed an AI-driven demand forecasting system to predict business trends and enable data-driven planning.</li>
-            <li>Designed and implemented an automated project allocation system to optimize resource utilization and team efficiency.</li>
+            <li>Acquired foundational knowledge in AI and Machine Learning, model development, and preprocessing workflows.</li>
+            <li>Developed a predictive demand forecasting system to identify business trends and enable data-driven planning.</li>
+            <li>Designed and deployed an automated project allocation platform to optimize enterprise resource utilization.</li>
           </ul>
         </div>
-        <div class="r-item">
-          <div class="r-item__top">
-            <h3>NLTVC - VHGlobal &mdash; Software Engineering Trainee</h3>
-            <span class="meta">Mar 2025 &ndash; May 2025 | Chennai, India</span>
+
+        <div class="r-entry">
+          <div class="r-entry-head">
+            <h3>Software Engineering Trainee</h3>
+            <span class="r-entry-meta">Mar 2025 &ndash; May 2025 &middot; Chennai, India</span>
           </div>
+          <p class="r-entry-sub">NLTVC - VHGlobal</p>
           <ul>
-            <li>Engineered software features, automated testing, and resolved critical production compatibility issues.</li>
-            <li>Strengthened expertise in version management, API lifecycles, and end-to-end production software delivery.</li>
-            <li>Ensured optimal performance, cross-platform stability, and seamless user accessibility.</li>
+            <li>Engineered core software features, automated testing, and resolved production integration bottlenecks.</li>
+            <li>Strengthened expertise in version control, API lifecycles, and end-to-end production software delivery.</li>
+            <li>Ensured optimal performance, cross-platform stability, and seamless accessibility across client modules.</li>
           </ul>
         </div>
       </section>
 
       <section class="r-sec">
-        <h2>Featured Projects</h2>
-        <div class="r-item">
-          <div class="r-item__top">
-            <h3>Repo-Pilot &mdash; Autonomous Self-Healing CI/CD Pipeline</h3>
-            <span class="meta">FastAPI, Python, LLMs, RAG, Elasticsearch, Vector DB</span>
+        <h2 class="r-sec-title">Projects</h2>
+        <div class="r-entry">
+          <div class="r-entry-head">
+            <h3>Repo-Pilot &mdash; Self-Healing CI/CD Pipeline</h3>
+            <span class="r-entry-meta">FastAPI, Gemini API, CrewAI, Elasticsearch, Docker</span>
           </div>
           <ul>
-            <li>Architected a self-healing CI/CD pipeline capable of automatically detecting, analyzing, and resolving build and deployment failures in real time.</li>
-            <li>Implemented automated monitoring and retry mechanisms using Elasticsearch for log indexing and fast error retrieval.</li>
-            <li>Synthesized validated code patches using Gemini LLM agents, opening automated pull requests with regression test verification.</li>
+            <li>Built an autonomous CI/CD failure interceptor querying Elasticsearch logs to identify build and test breaks.</li>
+            <li>Coordinated multi-agent LLM teams using CrewAI to synthesize validated code patches and issue automated PRs.</li>
           </ul>
         </div>
-        <div class="r-item">
-          <div class="r-item__top">
-            <h3>ATOM &mdash; AI-Powered Pre-Incident Forecasting Platform</h3>
-            <span class="meta">FastAPI, Python, Multi-Agents, Time-Series Modeling</span>
+
+        <div class="r-entry">
+          <div class="r-entry-head">
+            <h3>ATOM &mdash; Pre-Incident Reliability Forecasting Platform</h3>
+            <span class="r-entry-meta">Python, FastAPI, Multi-Agents, Time-Series ML</span>
           </div>
           <ul>
-            <li>Architected an end-to-end predictive reliability platform forecasting system incidents before occurrence using time-series anomaly detection.</li>
-            <li>Selected as <strong>Top 12 Finalist at Beach Hacks Season 07</strong> among 750+ participating engineering teams.</li>
-            <li>Reduced potential downtime through proactive early alerts, automated risk scoring, and real-time health monitoring dashboards.</li>
+            <li>Engineered a predictive infrastructure monitoring platform forecasting server incidents prior to downtime.</li>
+            <li>Beach Hacks Season 07 Top 12 Finalist among 750+ participating engineering teams across India.</li>
           </ul>
         </div>
-        <div class="r-item">
-          <div class="r-item__top">
-            <h3>RAG Query System &mdash; Enterprise Semantic Document Retrieval</h3>
-            <span class="meta">Python, FastAPI, LangChain, Pinecone, ChromaDB</span>
+
+        <div class="r-entry">
+          <div class="r-entry-head">
+            <h3>RAG Query System &mdash; Enterprise Semantic Retrieval</h3>
+            <span class="r-entry-meta">LangChain, FastAPI, ChromaDB, Pinecone, Vector Search</span>
           </div>
           <ul>
-            <li>Achieved <strong>Top 8 Finalist at HackRx 6.0</strong> among 620+ participants for an enterprise knowledge retrieval system.</li>
-            <li>Integrated dense vector embeddings with hybrid search and custom chunking to deliver context-grounded, zero-hallucination responses.</li>
-            <li>Optimized query latency to sub-second response times across large unstructured document sets.</li>
+            <li>Designed a high-throughput semantic retrieval engine delivering sub-second answers across large unstructured documents.</li>
+            <li>HackRx 6.0 Top 8 Finalist out of 620+ participants for zero-hallucination grounded retrieval.</li>
           </ul>
         </div>
-        <div class="r-item">
-          <div class="r-item__top">
-            <h3>Accident Hotspot Prediction System &mdash; Spatial Machine Learning</h3>
-            <span class="meta">Python, Scikit-learn, Spatial Analytics, Data Preprocessing</span>
+
+        <div class="r-entry">
+          <div class="r-entry-head">
+            <h3>Accident Hotspot Prediction System &mdash; Spatial ML</h3>
+            <span class="r-entry-meta">Python, Scikit-learn, Spatial Feature Engineering</span>
           </div>
           <ul>
-            <li>Won <strong>3rd Prize at AI Innovate Hackathon</strong> (Sri Eshwar Engg College) with a <strong>&rupee;10,000 cash award</strong>.</li>
-            <li>Developed a spatial predictive model analyzing accident density, temporal patterns, and road topology to identify high-risk zones.</li>
+            <li>Built a data-driven risk analytics model forecasting municipal traffic hotspots using historical incident density.</li>
+            <li>Won 3rd Prize (&#8377;10,000 Cash Prize Award) at AI Innovate Hackathon (Sri Eshwar College).</li>
           </ul>
         </div>
       </section>
 
       <section class="r-sec">
-        <h2>Technical Skills</h2>
-        <div class="r-skills">
-          <div>
+        <h2 class="r-sec-title">Technical Skills</h2>
+        <div class="r-skills-grid">
+          <div class="r-skill-box">
             <strong>Languages</strong>
-            <p>Python, SQL, C, Bash</p>
+            <p>Python (Expert, Async), SQL (PostgreSQL), C, Bash / Shell</p>
           </div>
-          <div>
-            <strong>AI &amp; Agents</strong>
-            <p>LLMs, CrewAI, LangChain, Multi-Agent Systems, Prompt Engineering</p>
+          <div class="r-skill-box">
+            <strong>Agentic AI &amp; LLMs</strong>
+            <p>CrewAI, LangChain, Multi-Agent Systems, Gemini API, Prompt Engineering</p>
           </div>
-          <div>
-            <strong>Retrieval &amp; RAG</strong>
-            <p>Vector Search, Pinecone, ChromaDB, Elasticsearch, Dense Embeddings</p>
+          <div class="r-skill-box">
+            <strong>RAG &amp; Vector Databases</strong>
+            <p>Dense Vector Search, ChromaDB, Pinecone, Elasticsearch, Chunking Pipelines</p>
           </div>
-          <div>
-            <strong>Backend &amp; Cloud</strong>
-            <p>FastAPI, RESTful APIs, Session Auth, Docker, GCP, PostgreSQL, Supabase</p>
+          <div class="r-skill-box">
+            <strong>Backend &amp; DevOps</strong>
+            <p>FastAPI, RESTful APIs, Docker, GCP, GitHub Actions CI/CD, Supabase</p>
           </div>
         </div>
       </section>
 
-      <section class="r-sec">
-        <h2>Awards &amp; Leadership</h2>
-        <ul>
-          <li><strong>3rd Prize Winner (&rupee;10,000 Cash Award):</strong> AI Innovate Hackathon (Sri Eshwar Engg College).</li>
-          <li><strong>Top 12 Finalist (750+ Teams):</strong> Beach Hacks Season 07 (Christ Engineering College, Kerala).</li>
-          <li><strong>Top 8 Finalist (620+ Participants):</strong> HackRx 6.0 (R.V. College of Engineering, Bengaluru).</li>
-          <li><strong>Vice President &mdash; AI Epoch Club:</strong> Organized AI seminars and workshops, mentoring 100+ participants.</li>
-          <li><strong>Lead Coordinator &mdash; Promptomania:</strong> Led Generative AI hackathon utilizing Google Gemini API with 200+ students.</li>
-        </ul>
-      </section>
-
-      <section class="r-sec">
-        <h2>Certifications</h2>
-        <ul>
-          <li><strong>Google AI Professional Certificate:</strong> Coursera &mdash; Machine Learning Workflows &amp; AI Deployment.</li>
-          <li><strong>Python and AI Fundamentals:</strong> GUVI &mdash; Core Programming, Data Structures &amp; AI Algorithms.</li>
-          <li><strong>Introduction to C Programming:</strong> NPTEL &mdash; Memory Management, Pointers, Structured Computation.</li>
-        </ul>
+      <section class="r-sec" style="margin-bottom:0;">
+        <h2 class="r-sec-title">Honors &amp; Leadership</h2>
+        <div class="r-entry">
+          <div class="r-entry-head">
+            <h3>Vice President &middot; AI Epoch Club</h3>
+            <span class="r-entry-meta">MSEC Chennai</span>
+          </div>
+          <p style="color:var(--text-muted); font-size:0.88rem;">
+            Conducted workshops and technical hackathons for 100+ engineers; boosted club engagement by 30%.
+          </p>
+        </div>
       </section>
     </article>
   </div>
