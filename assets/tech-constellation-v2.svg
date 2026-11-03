@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="1200" height="500" role="img" aria-labelledby="tc-title tc-desc">
+  <title id="tc-title">Tech stack — Jagavantha PA (AI Engineer)</title>
+  <desc id="tc-desc">Languages: Python (primary), C, SQL. AI &amp; Agents: LLMs, CrewAI, Multi-Agent Systems, Autonomous Agents. Retrieval &amp; RAG: LangChain, Semantic Search, Chunking. Backend: FastAPI, RESTful APIs, Session Auth. Vector DBs &amp; Data: Pinecone, ChromaDB, Elasticsearch, PostgreSQL. DevOps &amp; Cloud: Docker, Git, GCP, Render.</desc>
+  <defs>
+    <linearGradient id="tc-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a1711"/><stop offset="1" stop-color="#050c08"/>
+    </linearGradient>
+    <radialGradient id="tc-glow" cx="50%" cy="50%" r="60%">
+      <stop offset="0" stop-color="#059669" stop-opacity=".3"/><stop offset="1" stop-color="#047857" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="tc-pulse">
+      <stop offset="0" stop-color="#f0fdf4"/><stop offset=".5" stop-color="#6ee7b7" stop-opacity=".6"/><stop offset="1" stop-color="#10b981" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <style>
+    .tc-serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
+    .tc-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+  </style>
+
+  <rect width="1200" height="500" rx="20" fill="url(#tc-bg)"/>
+  <rect width="1200" height="500" rx="20" fill="url(#tc-glow)"/>
+  <rect x=".5" y=".5" width="1199" height="499" rx="19.5" fill="none" stroke="#10b981" stroke-opacity=".2"/>
+
+  <!-- Constellation Gutters -->
+  <path d="M24 250 H1176 M406 24 V476 M794 24 V476" fill="none" stroke="#10b981" stroke-opacity=".22"/>
+  <circle cx="0" cy="250" r="8" fill="url(#tc-pulse)" opacity="0">
+    <animate attributeName="cx" values="24;1176" dur="9s" begin="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.9;1" dur="9s" begin="2s" repeatCount="indefinite"/>
+  </circle>
+  <g fill="#050c08" stroke="#6ee7b7">
+    <rect x="400" y="244" width="12" height="12" transform="rotate(45 406 250)"/>
+    <rect x="788" y="244" width="12" height="12" transform="rotate(45 794 250)"/>
+  </g>
+
+  <!-- Row 1 -->
+  <!-- Panel 1: Languages -->
+  <g transform="translate(32 32)">
+    <rect width="360" height="200" rx="14" fill="#0d1e15" fill-opacity=".85" stroke="#10b981" stroke-opacity=".25"/>
+    <text class="tc-mono" x="24" y="38" font-size="11" letter-spacing="2.4" fill="#34d399">01  PROGRAMMING</text>
+    <text class="tc-serif" x="24" y="96" font-size="40" font-weight="300" fill="#f0fdf4">Python <tspan font-size="13" class="tc-mono" fill="#34d399" dy="-18">PRIMARY</tspan></text>
+    <text class="tc-serif" x="24" y="146" font-size="32" font-weight="300" fill="#f0fdf4">SQL  ·  C</text>
+    <text class="tc-serif" x="24" y="180" font-size="20" font-weight="300" fill="#94a3b8">Bash  ·  Data Structures</text>
+  </g>
+
+  <!-- Panel 2: Agentic AI & LLMs -->
+  <g transform="translate(420 32)">
+    <rect width="360" height="200" rx="14" fill="#0d1e15" fill-opacity=".85" stroke="#10b981" stroke-opacity=".25"/>
+    <text class="tc-mono" x="24" y="38" font-size="11" letter-spacing="2.4" fill="#34d399">02  AGENTIC AI &amp; LLMS</text>
+    <text class="tc-serif" x="24" y="90" font-size="30" font-weight="300" fill="#f0fdf4">LLMs  ·  CrewAI</text>
+    <text class="tc-serif" x="24" y="130" font-size="24" font-weight="300" fill="#f0fdf4">Multi-Agent Systems</text>
+    <text class="tc-serif" x="24" y="164" font-size="22" font-weight="300" fill="#94a3b8">Autonomous Agents · Tools</text>
+    <text class="tc-mono" x="24" y="186" font-size="10" letter-spacing="1.4" fill="#34d399">AGENTIC WORKFLOWS</text>
+  </g>
+
+  <!-- Panel 3: Retrieval & RAG -->
+  <g transform="translate(808 32)">
+    <rect width="360" height="200" rx="14" fill="#0d1e15" fill-opacity=".85" stroke="#10b981" stroke-opacity=".25"/>
+    <text class="tc-mono" x="24" y="38" font-size="11" letter-spacing="2.4" fill="#34d399">03  RETRIEVAL &amp; RAG</text>
+    <text class="tc-serif" x="24" y="90" font-size="30" font-weight="300" fill="#f0fdf4">RAG Pipelines</text>
+    <text class="tc-serif" x="24" y="130" font-size="24" font-weight="300" fill="#f0fdf4">LangChain  ·  Embeddings</text>
+    <text class="tc-serif" x="24" y="166" font-size="22" font-weight="300" fill="#94a3b8">Semantic Search  ·  Chunking</text>
+    <text class="tc-mono" x="24" y="186" font-size="10" letter-spacing="1.4" fill="#34d399">DENSE VECTOR SEARCH</text>
+  </g>
+
+  <!-- Row 2 -->
+  <!-- Panel 4: Backend & APIs -->
+  <g transform="translate(32 268)">
+    <rect width="360" height="200" rx="14" fill="#0d1e15" fill-opacity=".85" stroke="#10b981" stroke-opacity=".25"/>
+    <text class="tc-mono" x="24" y="38" font-size="11" letter-spacing="2.4" fill="#34d399">04  BACKEND &amp; APIS</text>
+    <text class="tc-serif" x="24" y="90" font-size="32" font-weight="300" fill="#f0fdf4">FastAPI</text>
+    <text class="tc-serif" x="24" y="132" font-size="24" font-weight="300" fill="#f0fdf4">RESTful APIs  ·  Async</text>
+    <text class="tc-serif" x="24" y="170" font-size="22" font-weight="300" fill="#94a3b8">Session Auth  ·  WebSockets</text>
+  </g>
+
+  <!-- Panel 5: Vector DBs & Data -->
+  <g transform="translate(420 268)">
+    <rect width="360" height="200" rx="14" fill="#0d1e15" fill-opacity=".85" stroke="#10b981" stroke-opacity=".25"/>
+    <text class="tc-mono" x="24" y="38" font-size="11" letter-spacing="2.4" fill="#34d399">05  VECTOR DBS &amp; DATA</text>
+    <text class="tc-serif" x="24" y="90" font-size="30" font-weight="300" fill="#f0fdf4">Pinecone  ·  ChromaDB</text>
+    <text class="tc-serif" x="24" y="130" font-size="24" font-weight="300" fill="#f0fdf4">Elasticsearch  ·  Postgres</text>
+    <text class="tc-serif" x="24" y="166" font-size="22" font-weight="300" fill="#94a3b8">Supabase  ·  pgvector</text>
+  </g>
+
+  <!-- Panel 6: DevOps & Cloud -->
+  <g transform="translate(808 268)">
+    <rect width="360" height="200" rx="14" fill="#0d1e15" fill-opacity=".85" stroke="#10b981" stroke-opacity=".25"/>
+    <text class="tc-mono" x="24" y="38" font-size="11" letter-spacing="2.4" fill="#34d399">06  DEVOPS &amp; CLOUD</text>
+    <text class="tc-serif" x="24" y="90" font-size="30" font-weight="300" fill="#f0fdf4">Docker  ·  CI/CD</text>
+    <text class="tc-serif" x="24" y="130" font-size="24" font-weight="300" fill="#f0fdf4">Git  ·  GitHub Actions</text>
+    <text class="tc-serif" x="24" y="166" font-size="22" font-weight="300" fill="#94a3b8">Google Cloud  ·  Render</text>
+  </g>
+</svg>

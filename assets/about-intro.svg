@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-labelledby="ab-t ab-d">
+  <title id="ab-t">About Jagavantha PA — AI Engineer</title>
+  <desc id="ab-d">AI Engineer at Meenakshi Sundararajan Engineering College. Building AI-powered systems, autonomous agents, and scalable FastAPI backends.</desc>
+  <defs>
+    <linearGradient id="ab-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a1711"/><stop offset="1" stop-color="#050c08"/></linearGradient>
+    <radialGradient id="ab-glow" cx="80%" cy="20%" r="70%"><stop offset="0" stop-color="#059669" stop-opacity=".35"/><stop offset="1" stop-color="#047857" stop-opacity="0"/></radialGradient>
+    <pattern id="ab-scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#f0fdf4" opacity=".025"/></pattern>
+  </defs>
+  <style>
+    .ab-serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
+    .ab-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .ab-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+  </style>
+
+  <rect width="1200" height="420" rx="20" fill="url(#ab-bg)"/>
+  <rect width="1200" height="420" rx="20" fill="url(#ab-glow)"/>
+  <rect x=".5" y=".5" width="1199" height="419" rx="19.5" fill="none" stroke="#10b981" stroke-opacity=".2"/>
+
+  <!-- Terminal Window (x=40, y=40, w=760, h=340) -->
+  <rect x="40" y="40" width="760" height="340" rx="14" fill="#06120b" stroke="#10b981" stroke-opacity=".35"/>
+  <rect x="40" y="40" width="760" height="340" rx="14" fill="url(#ab-scan)"/>
+  
+  <!-- Terminal Titlebar -->
+  <path d="M40 54 a14 14 0 0 1 14 -14 H786 a14 14 0 0 1 14 14 V74 H40 Z" fill="#0d2419"/>
+  <line x1="40" y1="74" x2="800" y2="74" stroke="#10b981" stroke-opacity=".2"/>
+  <circle cx="62" cy="57" r="5" fill="#10b981"/><circle cx="80" cy="57" r="5" fill="#047857"/><circle cx="98" cy="57" r="5" fill="#064e3b"/>
+  <text class="ab-mono" x="420" y="61" text-anchor="middle" font-size="11" letter-spacing="1.5" fill="#6ee7b7">jaga@ai-core: ~</text>
+
+  <!-- Terminal Code Content -->
+  <g class="ab-mono" font-size="12.5">
+    <text x="64" y="112" fill="#34d399">$</text>
+    <text x="82" y="112" fill="#f0fdf4">whoami</text>
+    <text x="64" y="134" fill="#10b981">→</text>
+    <text x="82" y="134" fill="#a7f3d0">Jagavantha PA · AI Engineer · Autonomous Systems &amp; LLM Architect</text>
+
+    <text x="64" y="166" fill="#34d399">$</text>
+    <text x="82" y="166" fill="#f0fdf4">cat education.txt</text>
+    <text x="64" y="188" fill="#10b981">→</text>
+    <text x="82" y="188" fill="#94a3b8">B.Tech AI &amp; DS · Meenakshi Sundararajan Engg College (2022–2026)</text>
+
+    <text x="64" y="220" fill="#34d399">$</text>
+    <text x="82" y="220" fill="#f0fdf4">cat experience.txt</text>
+    <text x="64" y="242" fill="#10b981">→</text>
+    <text x="82" y="242" fill="#94a3b8">EnnVee Solutions (AI Intern: Demand Forecasting &amp; Smart Allocation)</text>
+
+    <text x="64" y="274" fill="#34d399">$</text>
+    <text x="82" y="274" fill="#f0fdf4">ls ./ai_models</text>
+    <text x="64" y="296" fill="#10b981">→</text>
+    <text x="82" y="296" fill="#6ee7b7">repo-pilot-agent  atom-incident-forecaster  rag-semantic-query</text>
+
+    <text x="64" y="328" fill="#34d399">$</text>
+    <text x="82" y="328" fill="#f0fdf4">echo $MISSION</text>
+    <text x="64" y="350" fill="#10b981">→</text>
+    <text x="82" y="350" fill="#94a3b8">building autonomous, self-healing AI agents &amp; robust LLM backends</text>
+  </g>
+
+  <!-- Blinking Cursor -->
+  <rect x="64" y="360" width="8" height="15" fill="#34d399">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Right Side Summary Cards -->
+  <g transform="translate(830 50)">
+    <rect width="330" height="96" rx="14" fill="#0b1b12" stroke="#10b981" stroke-opacity=".3"/>
+    <rect x="0" y="0" width="3.5" height="96" rx="1.75" fill="#10b981"/>
+    <text class="ab-mono" x="22" y="28" font-size="10" letter-spacing="2" fill="#34d399">CORE EXPERTISE</text>
+    <text class="ab-serif" x="22" y="60" font-size="26" font-weight="300" fill="#f0fdf4">Agentic AI &amp; LLMs</text>
+    <text class="ab-sans" x="22" y="80" font-size="12" fill="#94a3b8">CrewAI · Multi-Agent Orchestration · RAG</text>
+  </g>
+
+  <g transform="translate(830 162)">
+    <rect width="330" height="96" rx="14" fill="#0b1b12" stroke="#10b981" stroke-opacity=".3"/>
+    <rect x="0" y="0" width="3.5" height="96" rx="1.75" fill="#10b981"/>
+    <text class="ab-mono" x="22" y="28" font-size="10" letter-spacing="2" fill="#34d399">AI BACKEND &amp; DATA</text>
+    <text class="ab-serif" x="22" y="60" font-size="26" font-weight="300" fill="#f0fdf4">FastAPI &amp; Vector DBs</text>
+    <text class="ab-sans" x="22" y="80" font-size="12" fill="#94a3b8">Pinecone · Elasticsearch · PostgreSQL · Docker</text>
+  </g>
+
+  <g transform="translate(830 274)">
+    <rect width="330" height="96" rx="14" fill="#0b1b12" stroke="#10b981" stroke-opacity=".3"/>
+    <rect x="0" y="0" width="3.5" height="96" rx="1.75" fill="#10b981"/>
+    <text class="ab-mono" x="22" y="28" font-size="10" letter-spacing="2" fill="#34d399">ML SPECIALIZATION</text>
+    <text class="ab-serif" x="22" y="60" font-size="26" font-weight="300" fill="#f0fdf4">Predictive Systems</text>
+    <text class="ab-sans" x="22" y="80" font-size="12" fill="#94a3b8">Time-Series Modeling · Anomaly Detection</text>
+  </g>
+</svg>
