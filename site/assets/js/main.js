@@ -106,4 +106,85 @@ document.addEventListener("DOMContentLoaded", () => {
         // Fallback or leave quiet if offline
       });
   }
+  // 5. Interactive Project Carousel
+  const track = document.querySelector("[data-carousel-track]");
+  const prevBtn = document.querySelector("[data-carousel-prev]");
+  const nextBtn = document.querySelector("[data-carousel-next]");
+  const counter = document.querySelector("[data-carousel-counter]");
+  const dots = document.querySelectorAll(".carousel-dot");
+
+  if (track && prevBtn && nextBtn) {
+    const cards = track.querySelectorAll(".carousel-card");
+    const totalCards = cards.length;
+
+    function getCardWidth() {
+      if (cards.length === 0) return 0;
+      const cardStyle = window.getComputedStyle(cards[0]);
+      const gap = parseFloat(window.getComputedStyle(track).gap) || 28;
+      return cards[0].offsetWidth + gap;
+    }
+
+    function getCurrentIndex() {
+      const cardW = getCardWidth();
+      if (!cardW) return 0;
+      return Math.round(track.scrollLeft / cardW);
+    }
+
+    function updateCarouselState(idx) {
+      const activeIdx = Math.max(0, Math.min(idx, totalCards - 1));
+      if (counter) {
+        counter.textContent = `${String(activeIdx + 1).padStart(2, "0")} / ${String(totalCards).padStart(2, "0")}`;
+      }
+      dots.forEach((dot, dIdx) => {
+        dot.classList.toggle("active", dIdx === activeIdx);
+      });
+    }
+
+    function scrollToIndex(idx) {
+      const targetIdx = (idx + totalCards) % totalCards;
+      const cardW = getCardWidth();
+      track.scrollTo({
+        left: targetIdx * cardW,
+        behavior: "smooth"
+      });
+      updateCarouselState(targetIdx);
+    }
+
+    nextBtn.addEventListener("click", () => {
+      const cur = getCurrentIndex();
+      scrollToIndex(cur + 1);
+    });
+
+    prevBtn.addEventListener("click", () => {
+      const cur = getCurrentIndex();
+      scrollToIndex(cur - 1);
+    });
+
+    dots.forEach((dot) => {
+      dot.addEventListener("click", () => {
+        const idx = parseInt(dot.dataset.index, 10);
+        scrollToIndex(idx);
+      });
+    });
+
+    let scrollTimeout;
+    track.addEventListener("scroll", () => {
+      clearTimeout(scrollTimeout);
+      scrollTimeout = setTimeout(() => {
+        updateCarouselState(getCurrentIndex());
+      }, 60);
+    }, { passive: true });
+
+    // Keyboard support (Left / Right arrow keys when hovered/focused)
+    track.addEventListener("keydown", (e) => {
+      if (e.key === "ArrowLeft") {
+        e.preventDefault();
+        scrollToIndex(getCurrentIndex() - 1);
+      } else if (e.key === "ArrowRight") {
+        e.preventDefault();
+        scrollToIndex(getCurrentIndex() + 1);
+      }
+    });
+  }
+
 });
