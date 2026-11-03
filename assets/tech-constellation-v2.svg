@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="1200" height="500" role="img" aria-labelledby="tc-title tc-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="1200" height="500" role="img" aria-labelledby="tc-title tc-desc" preserveAspectRatio="xMidYMid meet">
   <title id="tc-title">Tech stack — Jagavantha PA (AI Engineer)</title>
   <desc id="tc-desc">Languages: Python (primary), C, SQL. AI &amp; Agents: LLMs, CrewAI, Multi-Agent Systems, Autonomous Agents. Retrieval &amp; RAG: LangChain, Semantic Search, Chunking. Backend: FastAPI, RESTful APIs, Session Auth. Vector DBs &amp; Data: Pinecone, ChromaDB, Elasticsearch, PostgreSQL. DevOps &amp; Cloud: Docker, Git, GCP, Render.</desc>
   <defs>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" width="1200" height="480" role="img" aria-labelledby="hero-title hero-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" width="1200" height="480" role="img" aria-labelledby="hero-title hero-desc" preserveAspectRatio="xMidYMid meet">
   <title id="hero-title">Jagavantha PA — AI Engineer. Engineering intelligence. Building resilient AI systems.</title>
   <desc id="hero-desc">AI Engineer, LLM Systems Builder, Autonomous Agents and Scalable Backends. Meenakshi Sundararajan Engineering College.</desc>
 
