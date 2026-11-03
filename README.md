@@ -3,10 +3,10 @@
 </a>
 
 <p align="center">
-  <a href="https://jaga0001.github.io/Jaga0001/"><img src="https://img.shields.io/badge/🌐_Live_Portfolio-jaga0001.github.io%2FJaga0001-10B981?style=for-the-badge&labelColor=0A1811&logoColor=F0FDF4" alt="Live Portfolio Website"></a>
+  <a href="https://jaga0001.github.io/Jaga0001/"><img src="https://img.shields.io/badge/🌐_Live_Portfolio-jaga0001.github.io%2FJaga0001-10B981?style=for-the-badge&labelColor=0A1811&logoColor=F0FDF4" alt="Live Portfolio Website"></a><br/><br/>
   <a href="https://github.com/jaga0001"><img src="https://img.shields.io/badge/GitHub-jaga0001-10B981?style=for-the-badge&labelColor=0A1811&logoColor=F0FDF4&logo=github" alt="GitHub Profile"></a>
   <a href="https://www.linkedin.com/in/jaga0001/"><img src="https://img.shields.io/badge/LinkedIn-jaga0001-10B981?style=for-the-badge&labelColor=0A1811&logoColor=F0FDF4&logo=linkedin" alt="LinkedIn Profile"></a>
-  <a href="mailto:jagavanthaarunkumar@gmail.com"><img src="https://img.shields.io/badge/Email-jagavanthaarunkumar@gmail.com-10B981?style=for-the-badge&labelColor=0A1811&logoColor=F0FDF4&logo=gmail" alt="Email Jagavantha PA"></a>
+  <a href="mailto:jagavanthaarunkumar@gmail.com"><img src="https://img.shields.io/badge/Email-Contact_Me-10B981?style=for-the-badge&labelColor=0A1811&logoColor=F0FDF4&logo=gmail" alt="Email Jagavantha PA"></a>
 </p>
 
 <!-- 01 About -->
@@ -37,8 +37,9 @@
 <p align="center">
   <a href="https://jaga0001.github.io/Jaga0001/#projects"><img src="https://img.shields.io/badge/Live_Demo-Portfolio_Case_Study-10B981?style=for-the-badge&labelColor=0A1811&logoColor=F0FDF4" alt="View Repo-Pilot on Portfolio"></a>
   <a href="https://github.com/jaga0001/Repo-Pilot"><img src="https://img.shields.io/badge/Repository-Repo--Pilot-047857?style=for-the-badge&labelColor=0A1811&logoColor=F0FDF4&logo=github" alt="Repo-Pilot Repository"></a>
-  <a href="https://jaga0001.github.io/Jaga0001/#projects"><img src="https://img.shields.io/badge/Tech-FastAPI%20%7C%20LLMs%20%7C%20RAG-047857?style=for-the-badge&labelColor=0A1811&logoColor=F0FDF4" alt="Repo-Pilot Stack"></a>
-  <a href="https://jaga0001.github.io/Jaga0001/#projects"><img src="https://img.shields.io/badge/Logs-Elasticsearch-047857?style=for-the-badge&labelColor=0A1811&logoColor=F0FDF4&logo=elasticsearch" alt="Elasticsearch Log Indexing"></a>
+  <br/>
+  <a href="https://jaga0001.github.io/Jaga0001/#projects"><img src="https://img.shields.io/badge/Tech-FastAPI_%7C_LLMs_%7C_RAG-047857?style=flat-square&labelColor=0A1811&logoColor=F0FDF4" alt="Repo-Pilot Stack"></a>
+  <a href="https://jaga0001.github.io/Jaga0001/#projects"><img src="https://img.shields.io/badge/Logs-Elasticsearch-047857?style=flat-square&labelColor=0A1811&logoColor=F0FDF4&logo=elasticsearch" alt="Elasticsearch Log Indexing"></a>
 </p>
 
 <!-- Project 2: ATOM -->
@@ -48,8 +49,9 @@
 <p align="center">
   <a href="https://jaga0001.github.io/Jaga0001/#projects"><img src="https://img.shields.io/badge/Live_Demo-Portfolio_Case_Study-10B981?style=for-the-badge&labelColor=0A1811&logoColor=F0FDF4" alt="View ATOM on Portfolio"></a>
   <a href="https://github.com/jaga0001/ATOM"><img src="https://img.shields.io/badge/Repository-ATOM-047857?style=for-the-badge&labelColor=0A1811&logoColor=F0FDF4&logo=github" alt="ATOM Repository"></a>
-  <a href="https://jaga0001.github.io/Jaga0001/#projects"><img src="https://img.shields.io/badge/Award-Beach%20Hacks%20S07%20Finalist-047857?style=for-the-badge&labelColor=0A1811&logoColor=F0FDF4" alt="Beach Hacks Finalist"></a>
-  <a href="https://jaga0001.github.io/Jaga0001/#projects"><img src="https://img.shields.io/badge/Focus-Time--Series%20Forecasting-047857?style=for-the-badge&labelColor=0A1811&logoColor=F0FDF4" alt="Time-Series Anomaly Detection"></a>
+  <br/>
+  <a href="https://jaga0001.github.io/Jaga0001/#projects"><img src="https://img.shields.io/badge/Award-Beach_Hacks_S07_Finalist-047857?style=flat-square&labelColor=0A1811&logoColor=F0FDF4" alt="Beach Hacks Finalist"></a>
+  <a href="https://jaga0001.github.io/Jaga0001/#projects"><img src="https://img.shields.io/badge/Focus-Time--Series_Forecasting-047857?style=flat-square&labelColor=0A1811&logoColor=F0FDF4" alt="Time-Series Anomaly Detection"></a>
 </p>
 
 <!-- Project 3: RAG Query System -->
@@ -59,8 +61,9 @@
 <p align="center">
   <a href="https://jaga0001.github.io/Jaga0001/#projects"><img src="https://img.shields.io/badge/Live_Demo-Portfolio_Case_Study-10B981?style=for-the-badge&labelColor=0A1811&logoColor=F0FDF4" alt="View RAG Query System on Portfolio"></a>
   <a href="https://github.com/jaga0001"><img src="https://img.shields.io/badge/Repository-RAG--Query--System-047857?style=for-the-badge&labelColor=0A1811&logoColor=F0FDF4&logo=github" alt="RAG Query System Repository"></a>
-  <a href="https://jaga0001.github.io/Jaga0001/#projects"><img src="https://img.shields.io/badge/Framework-LangChain%20%7C%20FastAPI-047857?style=for-the-badge&labelColor=0A1811&logoColor=F0FDF4" alt="LangChain &amp; FastAPI"></a>
-  <a href="https://jaga0001.github.io/Jaga0001/#projects"><img src="https://img.shields.io/badge/Retrieval-Vector%20Search%20%7C%20RAG-047857?style=for-the-badge&labelColor=0A1811&logoColor=F0FDF4" alt="Vector Search &amp; RAG"></a>
+  <br/>
+  <a href="https://jaga0001.github.io/Jaga0001/#projects"><img src="https://img.shields.io/badge/Framework-LangChain_%7C_FastAPI-047857?style=flat-square&labelColor=0A1811&logoColor=F0FDF4" alt="LangChain &amp; FastAPI"></a>
+  <a href="https://jaga0001.github.io/Jaga0001/#projects"><img src="https://img.shields.io/badge/Retrieval-Vector_Search_%7C_RAG-047857?style=flat-square&labelColor=0A1811&logoColor=F0FDF4" alt="Vector Search &amp; RAG"></a>
 </p>
 
 <!-- 04 Toolkit -->
@@ -79,11 +82,9 @@
   <img src="assets/contribution-snake.svg" width="100%" alt="Animated snake eating my public GitHub contributions over the past year. Re-rendered daily.">
 </a>
 
-<p align="center">
-  <a href="https://jaga0001.github.io/Jaga0001/#activity">
-    <img src="assets/github-stats.svg" width="495" alt="GitHub stats for jaga0001: 1,064 commits, stars, pull requests and issues">
-  </a>
-</p>
+<a href="https://jaga0001.github.io/Jaga0001/#activity">
+  <img src="assets/github-stats.svg" width="100%" alt="GitHub stats for jaga0001: 1,064 commits, stars, pull requests and issues">
+</a>
 
 <!-- 06 Certifications -->
 <a href="https://jaga0001.github.io/Jaga0001/#experience">
@@ -99,8 +100,8 @@
 </a>
 
 <p align="center">
-  <a href="https://jaga0001.github.io/Jaga0001/#contact"><img src="https://img.shields.io/badge/🌐_Visit_Interactive_Portfolio-jaga0001.github.io%2FJaga0001-10B981?style=for-the-badge&labelColor=0A1811&logoColor=F0FDF4" alt="Interactive Portfolio"></a>
-  <a href="mailto:jagavanthaarunkumar@gmail.com"><img src="https://img.shields.io/badge/Email-jagavanthaarunkumar@gmail.com-10B981?style=for-the-badge&labelColor=0A1811&logoColor=F0FDF4&logo=gmail" alt="Email jagavanthaarunkumar@gmail.com"></a>
+  <a href="https://jaga0001.github.io/Jaga0001/#contact"><img src="https://img.shields.io/badge/🌐_Visit_Interactive_Portfolio-jaga0001.github.io%2FJaga0001-10B981?style=for-the-badge&labelColor=0A1811&logoColor=F0FDF4" alt="Interactive Portfolio"></a><br/><br/>
+  <a href="mailto:jagavanthaarunkumar@gmail.com"><img src="https://img.shields.io/badge/Email-Contact_Me-10B981?style=for-the-badge&labelColor=0A1811&logoColor=F0FDF4&logo=gmail" alt="Email jagavanthaarunkumar@gmail.com"></a>
   <a href="https://www.linkedin.com/in/jaga0001/"><img src="https://img.shields.io/badge/LinkedIn-jaga0001-10B981?style=for-the-badge&labelColor=0A1811&logoColor=F0FDF4&logo=linkedin" alt="LinkedIn profile jaga0001"></a>
   <a href="https://github.com/jaga0001"><img src="https://img.shields.io/badge/GitHub-jaga0001-10B981?style=for-the-badge&labelColor=0A1811&logoColor=F0FDF4&logo=github" alt="GitHub profile jaga0001"></a>
 </p>
