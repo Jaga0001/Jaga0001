@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" fill="none" role="img" aria-label="GitHub stats for jaga0001">
+  <defs>
+    <linearGradient id="card-bg" x1="0" y1="0" x2="495" y2="195" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#09140e"/>
+      <stop offset="100%" stop-color="#040906"/>
+    </linearGradient>
+    <linearGradient id="border-g" x1="0" y1="0" x2="495" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#34d399" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#059669" stop-opacity="0.6"/>
+    </linearGradient>
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#10b981" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <style>
+    .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #34d399; }
+    .stat-label { font: 400 13px 'Segoe UI', Ubuntu, Sans-Serif; fill: #94a3b8; }
+    .stat-val { font: 700 13px 'JetBrains Mono', Consolas, monospace; fill: #f0fdf4; }
+    .badge-text { font: 700 14px 'JetBrains Mono', Consolas, monospace; fill: #34d399; }
+    .badge-sub { font: 600 9px 'Segoe UI', Ubuntu, Sans-Serif; fill: #6ee7b7; letter-spacing: 1px; }
+  </style>
+
+  <!-- Card Background -->
+  <rect x="1.5" y="1.5" width="492" height="192" rx="14" fill="url(#card-bg)" stroke="url(#border-g)" stroke-width="1.5" filter="url(#glow)"/>
+
+  <!-- Title & Icon -->
+  <g transform="translate(25, 32)">
+    <!-- Octocat / Activity Icon -->
+    <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" fill="#10b981" transform="scale(0.85) translate(0, -3)"/>
+    <text x="28" y="15" class="header">GitHub at a glance</text>
+  </g>
+
+  <!-- Left Column: Metrics -->
+  <g transform="translate(25, 68)">
+    <!-- Total Commits -->
+    <g transform="translate(0, 0)">
+      <path d="M10.5 4.5a1.5 1.5 0 0 1 1.5 1.5v1.5h1.5a1.5 1.5 0 0 1 0 3H12v1.5a1.5 1.5 0 0 1-3 0V10.5H7.5a1.5 1.5 0 0 1 0-3H9V6a1.5 1.5 0 0 1 1.5-1.5z" fill="#10b981"/>
+      <circle cx="8" cy="8" r="7" stroke="#10b981" stroke-width="1.5" fill="none"/>
+      <text x="24" y="12" class="stat-label">Total Commits (Tracked):</text>
+      <text x="210" y="12" class="stat-val">1,064</text>
+    </g>
+
+    <!-- Total Stars -->
+    <g transform="translate(0, 28)">
+      <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z" fill="#10b981"/>
+      <text x="24" y="12" class="stat-label">Stars &amp; Recognitions:</text>
+      <text x="210" y="12" class="stat-val">10+ Stars</text>
+    </g>
+
+    <!-- Total PRs -->
+    <g transform="translate(0, 56)">
+      <path d="M7.177 3.073L9.573.677A.25.25 0 0 1 10 .854v4.792a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354zM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5zm-2.25.75a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25zM11 2.5h-1V4h1a1 1 0 0 1 1 1v4.5a2.25 2.25 0 1 1-1.5 0V6.75A2.25 2.25 0 0 0 9 4.5H8v1.5H7V2.5h4z" fill="#10b981"/>
+      <text x="24" y="12" class="stat-label">Production Repositories:</text>
+      <text x="210" y="12" class="stat-val">4 Core Systems</text>
+    </g>
+
+    <!-- Contributing Streak -->
+    <g transform="translate(0, 84)">
+      <path d="M12.5 0C5.6 0 0 5.6 0 12.5S5.6 25 12.5 25 25 19.4 25 12.5 19.4 0 12.5 0zm0 22.5C7 22.5 2.5 18 2.5 12.5S7 2.5 12.5 2.5 22.5 7 22.5 12.5 18 22.5 12.5 22.5z" fill="#10b981" transform="scale(0.65)"/>
+      <text x="24" y="12" class="stat-label">Active Commitment Rate:</text>
+      <text x="210" y="12" class="stat-val">Daily Active</text>
+    </g>
+  </g>
+
+  <!-- Right Side Rank Badge -->
+  <g transform="translate(365, 52)">
+    <circle cx="50" cy="50" r="44" stroke="#10b981" stroke-width="2.5" fill="#08140e" stroke-dasharray="276" stroke-dashoffset="35"/>
+    <circle cx="50" cy="50" r="37" fill="#0d2218" opacity="0.8"/>
+    <text x="50" y="48" text-anchor="middle" class="badge-text">S+</text>
+    <text x="50" y="63" text-anchor="middle" class="badge-sub">TOP TIER</text>
+    <text x="50" y="112" text-anchor="middle" class="stat-label" font-size="11">AI ENGINEER</text>
+  </g>
+</svg>
+

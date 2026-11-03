@@ -81,7 +81,7 @@
 
 <p align="center">
   <a href="https://jaga0001.github.io/Jaga0001/#activity">
-    <img src="https://github-readme-stats.vercel.app/api?username=jaga0001&show_icons=true&hide_rank=true&hide_border=true&border_radius=16&bg_color=0D1813&title_color=34D399&text_color=94A3B8&icon_color=10B981&custom_title=GitHub%20at%20a%20glance" width="400" alt="GitHub stats for jaga0001: stars, commits, pull requests and issues">
+    <img src="assets/github-stats.svg" width="495" alt="GitHub stats for jaga0001: 1,064 commits, stars, pull requests and issues">
   </a>
 </p>
 
